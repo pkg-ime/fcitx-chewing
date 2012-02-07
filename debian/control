@@ -13,7 +13,8 @@ Vcs-Browser: http://git.debian.org/?p=pkg-ime/fcitx-chewing.git
 
 Package: fcitx-chewing
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-bin, 
+  fcitx-data (>= 1:4.2.0), fcitx-modules
 Description: Fcitx wrapper for Chewing library
  fcitx-chewing is a wrapper of Chewing IM engine for Fcitx.
  .
