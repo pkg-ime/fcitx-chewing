@@ -1,0 +1,20 @@
+Source: fcitx-chewing
+Section: utils
+Priority: optional
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 8.0.0), cmake, intltool, fcitx-libs-dev (>= 4.2.0), 
+  libchewing3-dev
+Standards-Version: 3.9.2
+Homepage: http://fcitx.googlecode.com
+Vcs-Git: git://git.debian.org/pkg-ime/fcitx-chewing.git
+Vcs-Browser: http://git.debian.org/?p=pkg-ime/fcitx-chewing.git
+
+Package: fcitx-chewing
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: chewing wrapper for Fcitx
+ fcitx-chewing is a wrapper of Chewing IM engine for Fcitx.
+ .
+ Chewing is an intelligent phonetic input method library.
