@@ -1,0 +1,38 @@
+[Chewing/AddPhraseForward]
+Type=Boolean
+Description=Add Phrase Forward
+DefaultValue=False
+
+[Chewing/ChoiceBackward]
+Type=Boolean
+Description=Backward phrase choice
+DefaultValue=True
+
+[Chewing/AutoShiftCursor]
+Type=Boolean
+Description=Automatically shift cursor
+DefaultValue=True
+
+[Chewing/SpaceAsSelection]
+Type=Boolean
+Description=Space as selection key
+DefaultValue=True
+
+[Chewing/Layout]
+Type=Enum
+Description=Keyboard Layout
+DefaultValue=Default Keyboard
+EnumCount=10
+Enum0=Default Keyboard
+Enum1=Hsu's Keyboard
+Enum2=IBM Keyboard
+Enum3=Gin-Yieh Keyboard
+Enum4=ETen Keyboard
+Enum5=ETen26 Keyboard
+Enum6=Dvorak Keyboard
+Enum7=Dvorak Keyboard with Hsu's support
+Enum8=DACHEN_CP26 Keyboard
+Enum9=Han-Yu PinYin Keyboard
+
+[DescriptionFile]
+LocaleDomain=fcitx-chewing
